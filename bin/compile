@@ -83,7 +83,7 @@ fi
 
 julia <<__EOF__
 import Pkg
-Pkg.add(Pkg.PackageSpec(name="PackageCompiler", version="1.2.4"))
+Pkg.add(Pkg.PackageSpec(name="PackageCompiler", version="1.2.5"))
 using PackageCompiler
 Pkg.activate(".")
 Pkg.instantiate()
